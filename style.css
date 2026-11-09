@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1f4068, #162447);
+    color: #e4e4e4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.profile-card {
+    background-color: #1b1a55;
+    border: 1px solid #535c91;
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 450px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    background-color: #9290c3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+    font-size: 2.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.profile-card h1 {
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-size: 1.8rem;
+}
+
+.title {
+    color: #9290c3;
+    font-size: 1rem;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.about-section {
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.about-section h2 {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #d2d2d2;
+    margin: 0;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.tag {
+    background-color: #535c91;
+    color: #ffffff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links a {
+    background-color: #9290c3;
+    color: #1b1a55;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #ffffff;
+    transform: translateY(-2px);
+}
